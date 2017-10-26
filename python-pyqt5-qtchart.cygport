@@ -18,7 +18,7 @@ PATCH_URI="
 "
 
 PKG_NAMES="python2-pyqt5-qtchart python3-pyqt5-qtchart ${NAME}-common ${NAME}-devel"
-python2_pyqt5_qtchart_REQUIRES="{NAME}-common"
+python2_pyqt5_qtchart_REQUIRES="${NAME}-common"
 python2_pyqt5_qtchart_CONTENTS=${PYTHON2_SITELIB#/}
 python3_pyqt5_qtchart_REQUIRES="${NAME}-common"
 python3_pyqt5_qtchart_CONTENTS=${PYTHON3_SITELIB#/}
